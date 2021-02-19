@@ -75,6 +75,21 @@ h6 {
     font: 400 0.875rem/1.5rem "Open Sans", sans-serif;
 }
 
+.solutions-sections {
+    margin-top: 4rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    background-color: #ffffff;
+}
+
+.solutions-sections hr {
+    width: 44px;
+    margin-top: 0.125rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    border-top: 0.125rem solid #F70B39;
+}
+
 .testimonial-text {
     font-style: italic;
 }
@@ -111,6 +126,7 @@ a:hover {
 
 .bg-gray {
     background-color: #f2f2f2;
+    text-align: center;
 }
 
 .btn-solid-reg {
@@ -227,7 +243,15 @@ a:hover {
     left: 1.375rem;
     color: #7d838a;
     opacity: 1;
-    font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+    cursor: text;
+    transition: all 0.2s ease;
+}
+
+select {
+    top: 0.875rem;
+    left: 1.375rem;
+    color: #7d838a;
+    opacity: 1;
     cursor: text;
     transition: all 0.2s ease;
 }
@@ -239,6 +263,7 @@ a:hover {
     top: 0.125rem;
     color: #5d636b;
     opacity: 1;
+    font: 400 "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
 }
@@ -706,32 +731,11 @@ input[type='checkbox'] {
     margin-bottom: 1.875rem;
 }
 
-
-/*Details 1 Lightbox*/
-
-.lightbox-basic {
-    position: relative;
-    max-width: 1150px;
-    margin: 2.5rem auto;
-    padding: 3rem 1rem;
-    background-color: #ffffff;
-    text-align: left;
-}
-
-.lightbox-basic .image-container {
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.lightbox-basic .image-container img {
-    border-radius: 8px;
-}
-
-.lightbox-basic h3 {
+.solutions-sections h3 {
     margin-bottom: 0.5rem;
 }
 
-.lightbox-basic hr {
+.solutions-sections hr {
     width: 44px;
     margin-top: 0.125rem;
     margin-bottom: 1rem;
@@ -739,33 +743,33 @@ input[type='checkbox'] {
     border-top: 0.125rem solid #F70B39;
 }
 
-.lightbox-basic h4 {
+.solutions-sections h4 {
     margin-top: 1.75rem;
     margin-bottom: 0.625rem;
 }
 
-.lightbox-basic .list-unstyled {
+.solutions-sections .list-unstyled {
     margin-bottom: 1.5rem;
 }
 
-.lightbox-basic .list-unstyled .fas {
+.solutions-sections .list-unstyled .fas {
     color: #F70B39;
     font-size: 0.875rem;
     line-height: 1.75rem;
 }
 
-.lightbox-basic .list-unstyled .media-body {
+.solutions-sections .list-unstyled .media-body {
     margin-left: 0.625rem;
 }
 
-.lightbox-basic .list-unstyled {
+.solutions-sections .list-unstyled {
     margin-bottom: 1.5rem;
 }
 
 
 /* Action Button */
 
-.lightbox-basic .btn-solid-reg.mfp-close {
+.solutions-sections .btn-solid-reg.mfp-close {
     position: relative;
     width: auto;
     height: auto;
@@ -773,14 +777,14 @@ input[type='checkbox'] {
     opacity: 1;
 }
 
-.lightbox-basic .btn-solid-reg.mfp-close:hover {
+.solutions-sections .btn-solid-reg.mfp-close:hover {
     color: #F70B39;
 }
 
 
 /* Back Button */
 
-.lightbox-basic .btn-outline-reg.mfp-close.as-button {
+.solutions-sections .btn-outline-reg.mfp-close.as-button {
     position: relative;
     display: inline-block;
     width: auto;
@@ -793,7 +797,7 @@ input[type='checkbox'] {
     opacity: 1;
 }
 
-.lightbox-basic .btn-outline-reg.mfp-close.as-button:hover {
+.solutions-sections .btn-outline-reg.mfp-close.as-button:hover {
     background-color: #1d1d1d;
     color: #ffffff;
 }
@@ -801,7 +805,7 @@ input[type='checkbox'] {
 
 /* Close X Button */
 
-.lightbox-basic button.mfp-close.x-button {
+.solutions-sections button.mfp-close.x-button {
     position: absolute;
     top: -0.125rem;
     right: -0.125rem;
@@ -1376,8 +1380,12 @@ a:hover.back-to-top {
 @media (min-width: 992px) {
     /* General Styles */
     .h1-large {
-        font-size: 5rem;
+        font-size: 4.5rem;
         line-height: 5.0rem;
+    }
+    .h1-medium {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
     }
     .h2-heading {
         width: 31.875rem;
@@ -1479,10 +1487,10 @@ a:hover.back-to-top {
         width: 24.375rem;
     }
     /* Details 1 Lightbox */
-    .lightbox-basic {
+    .solutions-sections {
         padding: 3rem 3rem;
     }
-    .lightbox-basic .image-container {
+    .solutions-sections .image-container {
         margin-bottom: 0;
         text-align: left;
     }
@@ -1630,7 +1638,7 @@ a:hover.back-to-top {
         margin-right: 5.5rem;
     }
     /* Details 1 Lightbox */
-    .lightbox-basic .image-container {
+    .solutions-sections .image-container {
         margin-right: 1.5rem;
     }
     /* Details 2 */
