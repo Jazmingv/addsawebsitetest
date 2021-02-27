@@ -414,6 +414,10 @@ a:hover {
     background-color: #ffffff;
 }
 
+.dropdown-toggle:hover {
+    aria
+}
+
 .navbar .dropdown-item {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -1344,8 +1348,8 @@ a:hover.back-to-top {
     }
     /* Navigation */
     .navbar {
-        padding-top: 1.75rem;
-        background-color: transparent;
+        padding-top: 1rem;
+        background-color: #ffffff;
         box-shadow: none;
         transition: all 0.2s;
     }
@@ -1628,6 +1632,20 @@ a:hover.back-to-top {
         margin-left: 2.25rem;
     }
     /* Contact */
+    .form-iframe {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 35px;
+        height: 0;
+        overflow: hidden;
+    }
+    .form-iframe iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 95%;
+        height: 100%;
+    }
     .form-2 {
         overflow: hidden;
     }
