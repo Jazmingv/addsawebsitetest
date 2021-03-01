@@ -14,7 +14,6 @@ form {
 .form-group {
     position: relative;
     margin-bottom: 1.25rem;
-    box-sizing: border-box;
 }
 
 .label-control {
@@ -40,12 +39,11 @@ form {
     font-weight: 700;
 }
 
-.form-control-textarea,
-.form-control-input {
+.form-control-input,
+.form-control-select {
     display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;
-    box-sizing: border-box;
     padding-top: 1.125rem;
     padding-bottom: 0.125rem;
     padding-left: 1.3125rem;
@@ -60,15 +58,14 @@ form {
     /* removes inner shadow on form inputs on ios safari */
 }
 
-.form-control-textarea {
-    height: 14rem;
-}
-
-select {
+.form-control-select {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     height: 3.25rem;
     color: #7d838a;
+}
+
+select {
     /* you should keep these first rules in place to maintain cross-browser behavior */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -81,12 +78,21 @@ select {
     outline: none;
 }
 
-.form-control-input:focus,
-select:focus,
-.form-control-textarea:focus {
-    border: 1px solid #a1a1a1;
-    outline: none;
-    /* Removes blue border on focus */
+.form-control-textarea {
+    display: block;
+    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+    width: 100%;
+    height: 14rem;
+    /* used instead of html rows to normalize height between Chrome and IE/FF */
+    padding-top: 1.5rem;
+    padding-left: 1.3125rem;
+    border: 1px solid #cbcbd1;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #5d636b;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    transition: all 0.2s;
 }
 
 .form-control-submit-button {
