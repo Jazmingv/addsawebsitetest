@@ -30,6 +30,7 @@ html {
     width: 100%;
     height: 100%;
     margin: 0;
+    overflow: hidden;
 }
 
 body,
@@ -1110,7 +1111,7 @@ a:hover {
 }
 
 .form-2 .list-unstyled .fas {
-    color: #00bfd8;
+    color: #F70B39;
 }
 
 .form-2 .map-responsive {
