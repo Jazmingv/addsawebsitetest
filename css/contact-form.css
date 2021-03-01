@@ -36,24 +36,31 @@ form {
     font: 400 "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
-    box-sizing: border-box;
 }
 
-.form-control-input {
+.form-control-input,
+.form-control-select {
     display: block;
-    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
-    box-sizing: border-box;
+    /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;
-    height: 14rem;
-    left: 1.3125rem;
+    padding-top: 1.125rem;
+    padding-bottom: 0.125rem;
+    padding-left: 1.3125rem;
     border: 1px solid #cbcbd1;
     border-radius: 4px;
     background-color: #ffffff;
     color: #5d636b;
-    font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
+    font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
     transition: all 0.2s;
     -webkit-appearance: none;
     /* removes inner shadow on form inputs on ios safari */
+}
+
+.form-control-select {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 3.25rem;
+    color: #7d838a;
 }
 
 select {
