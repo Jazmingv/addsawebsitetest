@@ -1134,10 +1134,6 @@ a:hover {
     border: none;
 }
 
-.form-2 .form-control-textarea {
-    height: 8rem;
-}
-
 
 /*Footer*/
 
@@ -1651,16 +1647,6 @@ a:hover.back-to-top {
     .form-2 form {
         margin-left: 1.25rem;
     }
-    .form-2 .form-control-textarea {
-        height: 11rem;
-    }
-    .form-2 .decoration {
-        display: block;
-        position: absolute;
-        top: 170px;
-        right: -460px;
-        width: 600px;
-    }
     /* Footer */
     .footer .footer-col.first {
         width: 352px;
@@ -1679,16 +1665,5 @@ a:hover.back-to-top {
     .ex-cards-1 .card:nth-of-type(3n+2) {
         margin-right: 2.875rem;
         margin-left: 2.875rem;
-    }
-}
-
-
-/* Min-width 1600px */
-
-@media (min-width: 1600px) {
-    /* Contact */
-    .form-2 .decoration {
-        right: -410px;
-        width: 630px;
     }
 }
