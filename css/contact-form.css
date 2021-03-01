@@ -14,6 +14,8 @@ form {
 .form-group {
     position: relative;
     margin-bottom: 1.25rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .label-control {
@@ -26,14 +28,6 @@ form {
     transition: all 0.2s ease;
 }
 
-option {
-    position: absolute;
-    top: 0.875rem;
-    left: 1.375rem;
-    color: #7d838a;
-    opacity: 1;
-}
-
 .form-control-input:focus+.label-control,
 .form-control-input.notEmpty+.label-control,
 .form-control-textarea:focus+.label-control,
@@ -44,11 +38,11 @@ option {
     font: 400 "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
+    box-sizing: border-box;
 }
 
-.form-control-input,
-.form-control-select {
-    display: inline-block;
+.form-control-input {
+    display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;
     padding-top: 1.125rem;
@@ -62,13 +56,6 @@ option {
     transition: all 0.2s;
     -webkit-appearance: none;
     /* removes inner shadow on form inputs on ios safari */
-}
-
-.form-control-select {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    height: 3.25rem;
-    color: #7d838a;
 }
 
 select {
@@ -85,7 +72,7 @@ select {
 }
 
 .form-control-textarea {
-    display: inline-block;
+    display: block;
     /* used to eliminate a bottom gap difference between Chrome and IE/FF */
     width: 100%;
     height: 14rem;
