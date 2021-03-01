@@ -16,15 +16,14 @@ form {
     margin-bottom: 1.25rem;
 }
 
-/*.label-control {
+.label-control {
     position: absolute;
     top: 0.875rem;
-    left: 1.375rem;
     color: #7d838a;
     opacity: 1;
     cursor: text;
     transition: all 0.2s ease;
-}*/
+}
 
 .form-control-input:focus+.label-control,
 .form-control-input.notEmpty+.label-control,
