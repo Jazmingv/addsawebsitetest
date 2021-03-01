@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 body {
@@ -45,16 +44,16 @@ form {
 
 .form-control-input {
     display: block;
-    /* needed for proper display of the label in Firefox, IE, Edge */
+    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+    box-sizing: border-box;
     width: 100%;
-    padding-top: 1.125rem;
-    padding-bottom: 0.125rem;
+    height: 14rem;
     padding-left: 1.3125rem;
     border: 1px solid #cbcbd1;
     border-radius: 4px;
     background-color: #ffffff;
     color: #5d636b;
-    font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
+    font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
     transition: all 0.2s;
     -webkit-appearance: none;
     /* removes inner shadow on form inputs on ios safari */
@@ -79,8 +78,6 @@ select {
     box-sizing: border-box;
     width: 100%;
     height: 14rem;
-    /* used instead of html rows to normalize height between Chrome and IE/FF */
-    padding-top: 1.25rem;
     padding-left: 1.3125rem;
     border: 1px solid #cbcbd1;
     border-radius: 4px;
