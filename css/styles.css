@@ -1637,7 +1637,6 @@ a:hover.back-to-top {
         padding-bottom: 56.25%;
         padding-top: 35px;
         height: 0;
-        overflow: hidden;
     }
     .form-iframe iframe {
         position: absolute;
