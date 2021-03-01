@@ -1304,6 +1304,11 @@ a:hover.back-to-top {
         padding-right: 3.5rem;
         padding-left: 3.5rem;
     }
+    /* Contact */
+    .form-2 .list-unstyled li {
+        display: inline-block;
+        margin-right: 1rem;
+    }
     /* Extra Pages */
     .ex-basic-1 .text-box {
         padding: 1.75rem 2rem 0.875rem 2rem;
@@ -1439,7 +1444,39 @@ a:hover.back-to-top {
         margin-bottom: 0;
         text-align: left;
     }
-    /* Testimonials
+    /* Details 2 */
+    .basic-2 .image-container {
+        margin-bottom: 0;
+    }
+    .basic-2 .text-container {
+        margin-top: 2rem;
+    }
+    .basic-2 h2 {
+        width: 24.375rem;
+    }
+    /* Pricing */
+    .cards-2 .card {
+        display: inline-block;
+        max-width: 100%;
+        width: 302px;
+        vertical-align: top;
+    }
+    .cards-2 .card:nth-of-type(3n+2) {
+        margin-right: 0.375rem;
+        margin-left: 0.375rem;
+    }
+    /* Registration */
+    .form-1 .text-container {
+        margin-top: 2.625rem;
+        margin-bottom: 0;
+    }
+    /* Video */
+    .basic-3 .image-container {
+        width: 930px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* Testimonials */
     .slider-2 .image-container {
         margin-bottom: 0;
     }
@@ -1455,7 +1492,7 @@ a:hover.back-to-top {
         right: 16px;
         width: 22px;
         background-size: 22px 34px;
-    } */
+    }
     /* About */
     .cards-3 .card {
         display: inline-block;
@@ -1554,7 +1591,29 @@ a:hover.back-to-top {
     .solutions-sections .image-container {
         margin-right: 1.5rem;
     }
-    /* Testimonials
+    /* Details 2 */
+    .basic-2 .text-container {
+        margin-top: 4.25rem;
+        margin-left: 5.5rem;
+    }
+    /* Pricing */
+    .cards-2 .card {
+        width: 330px;
+    }
+    .cards-2 .card:nth-of-type(3n+2) {
+        margin-right: 3.375rem;
+        margin-left: 3.375rem;
+    }
+    /* Registration */
+    .form-1 .text-container {
+        margin-right: 2.125rem;
+        margin-left: 6rem;
+    }
+    .form-1 form {
+        margin-right: 6rem;
+        margin-left: 1.625rem;
+    }
+    /* Testimonials */
     .slider-2 h2 {
         margin-top: 3.5rem;
         margin-left: 3.25rem;
@@ -1563,7 +1622,7 @@ a:hover.back-to-top {
         width: 90%;
         margin-right: 0;
         margin-left: auto;
-    } */
+    }
     /* About */
     .cards-3 .card:nth-of-type(4n+2) {
         margin-right: 2.25rem;
@@ -1576,6 +1635,7 @@ a:hover.back-to-top {
     /* Contact */
     .form-iframe {
         position: relative;
+        padding-bottom: 56.25%;
         padding-top: 35px;
         height: 0;
         overflow: hidden;
@@ -1584,6 +1644,7 @@ a:hover.back-to-top {
         position: absolute;
         top: 0;
         left: 0;
+        width: 95%;
         height: 100%;
     }
     .form-2 {
@@ -1596,7 +1657,7 @@ a:hover.back-to-top {
     .form-2 form {
         margin-left: 1.25rem;
     }
-    .form-control-textarea {
+    .form-2 .form-control-textarea {
         height: 11rem;
     }
     .form-2 .decoration {
@@ -1624,5 +1685,16 @@ a:hover.back-to-top {
     .ex-cards-1 .card:nth-of-type(3n+2) {
         margin-right: 2.875rem;
         margin-left: 2.875rem;
+    }
+}
+
+
+/* Min-width 1600px */
+
+@media (min-width: 1600px) {
+    /* Contact */
+    .form-2 .decoration {
+        right: -410px;
+        width: 630px;
     }
 }
