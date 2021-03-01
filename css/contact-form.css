@@ -36,12 +36,14 @@ form {
     font: 400 "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
+    box-sizing: border-box;
 }
 
 .form-control-input {
     display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;
+    box-sizing: border-box;
     padding-top: 1.125rem;
     padding-bottom: 0.125rem;
     padding-left: 1.3125rem;
