@@ -109,3 +109,34 @@ select:focus,
     background-color: transparent;
     color: #F70B39;
 }
+
+
+/* Min-width 1600px */
+
+@media (min-width: 1600px) {
+    /* Contact */
+    .form {
+        right: -410px;
+        width: 630px;
+    }
+}
+
+
+/* Min-width 768px */
+
+@media (min-width: 768px) {
+    .form {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
+
+
+/* Max-width 992px */
+
+
+/*@media (max-width: 992px) {
+    .header .image-container {
+        display: none;
+    }
+}*/
