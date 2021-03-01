@@ -82,7 +82,8 @@ select {
     box-sizing: border-box;
     width: 100%;
     height: 14rem;
-    left: 1.3125rem;
+    top: 0.875rem;
+    left: 1.375rem;
     border: 1px solid #cbcbd1;
     border-radius: 4px;
     background-color: #ffffff;
