@@ -1,12 +1,9 @@
-* {
-    margin: 0;
-}
-
 body {
     width: 100%;
     height: 100%;
     color: #5d636b;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    margin: 0;
 }
 
 form {
@@ -20,6 +17,9 @@ form {
 }
 
 .label-control {
+    position: absolute;
+    padding-top: 0.875rem;
+    padding-left: 1.375rem;
     color: #7d838a;
     opacity: 1;
     cursor: text;
