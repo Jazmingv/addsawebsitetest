@@ -1635,9 +1635,7 @@ a:hover.back-to-top {
     /* Contact */
     .form-iframe {
         position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 35px;
-        height: 0;
+        height: 100%;
         overflow: hidden;
     }
     .form-iframe iframe {
