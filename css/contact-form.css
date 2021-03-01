@@ -16,8 +16,7 @@ form {
     margin-bottom: 1.25rem;
 }
 
-.label-control,
-option {
+.label-control {
     position: absolute;
     top: 0.875rem;
     left: 1.375rem;
@@ -30,7 +29,6 @@ option {
 }
 
 .form-control-input:focus+.label-control,
-option,
 .form-control-input.notEmpty+.label-control,
 .form-control-textarea:focus+.label-control,
 .form-control-textarea.notEmpty+.label-control {
@@ -113,13 +111,14 @@ select:focus,
 }
 
 
-/* Min-width 1600px */
+/* Max-width 1600px */
 
-@media (min-width: 1600px) {
+@media (max-width: 1600px) {
     /* Contact */
     .form {
         right: -410px;
         width: 630px;
+        height: 100%
     }
 }
 
@@ -128,8 +127,7 @@ select:focus,
 
 @media (min-width: 768px) {
     .form {
-        display: inline-block;
-        margin-right: 1rem;
+        display: block;
     }
 }
 
