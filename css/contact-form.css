@@ -39,8 +39,8 @@ form {
     font-weight: 700;
 }
 
-.form-control-input,
-.form-control-textarea {
+.form-control-textarea,
+.form-control-input {
     display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;

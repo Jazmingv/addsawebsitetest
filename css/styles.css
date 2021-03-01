@@ -1112,6 +1112,10 @@ a:hover {
     margin-bottom: 3.75rem;
 }
 
+.form-2 .list-unstyled .fas {
+    color: #F70B39;
+}
+
 .form-2 .map-responsive {
     position: relative;
     overflow: hidden;
