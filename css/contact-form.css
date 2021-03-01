@@ -14,8 +14,6 @@ form {
 .form-group {
     position: relative;
     margin-bottom: 1.25rem;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .label-control {
@@ -38,7 +36,6 @@ form {
     font: 400 "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
-    box-sizing: border-box;
 }
 
 .form-control-input {
