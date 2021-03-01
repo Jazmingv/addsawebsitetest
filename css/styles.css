@@ -1635,9 +1635,6 @@ a:hover.back-to-top {
         width: 100%;
         height: 0;
         border: 0;
-    }
-    .form-iframe iframe {
-        position: relative;
         overflow: hidden;
     }
     .form-2 .map-responsive {
