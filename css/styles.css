@@ -1304,11 +1304,6 @@ a:hover.back-to-top {
         padding-right: 3.5rem;
         padding-left: 3.5rem;
     }
-    /* Contact */
-    .form-2 .list-unstyled li {
-        display: inline-block;
-        margin-right: 1rem;
-    }
     /* Extra Pages */
     .ex-basic-1 .text-box {
         padding: 1.75rem 2rem 0.875rem 2rem;
@@ -1685,16 +1680,5 @@ a:hover.back-to-top {
     .ex-cards-1 .card:nth-of-type(3n+2) {
         margin-right: 2.875rem;
         margin-left: 2.875rem;
-    }
-}
-
-
-/* Min-width 1600px */
-
-@media (min-width: 1600px) {
-    /* Contact */
-    .form-2 .decoration {
-        right: -410px;
-        width: 630px;
     }
 }

@@ -26,6 +26,14 @@ form {
     transition: all 0.2s ease;
 }
 
+option {
+    position: absolute;
+    top: 0.875rem;
+    left: 1.375rem;
+    color: #7d838a;
+    opacity: 1;
+}
+
 .form-control-input:focus+.label-control,
 .form-control-input.notEmpty+.label-control,
 .form-control-textarea:focus+.label-control,
@@ -78,8 +86,6 @@ select {
 
 .form-control-textarea {
     display: block;
-    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
-    width: 100%;
     height: 14rem;
     /* used instead of html rows to normalize height between Chrome and IE/FF */
     padding-top: 1.25rem;
@@ -123,4 +129,34 @@ select {
     border: 1px solid #F70B39;
     background-color: transparent;
     color: #F70B39;
+}
+
+
+/* Min-width 1600px */
+
+@media (min-width: 1600px) {
+    /* Contact */
+    .form {
+        right: -410px;
+        width: 630px;
+    }
+}
+
+
+/* Min-width 768px */
+
+@media (min-width: 768px) {
+    .form {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
+
+
+/* Max-width 992px */
+
+@media (max-width: 992px) {
+    .header .image-container {
+        display: none;
+    }
 }
