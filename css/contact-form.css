@@ -22,6 +22,8 @@ form {
     left: 1.375rem;
     color: #7d838a;
     opacity: 1;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
     cursor: text;
     transition: all 0.2s ease;
 }
@@ -33,7 +35,6 @@ form {
     top: 0.125rem;
     color: #5d636b;
     opacity: 1;
-    font: 400 "Open Sans", sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
 }
@@ -42,7 +43,6 @@ form {
 .form-control-textarea {
     display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
-    box-sizing: border-box;
     width: 100%;
     padding-top: 1.125rem;
     padding-bottom: 0.125rem;
@@ -51,7 +51,8 @@ form {
     border-radius: 4px;
     background-color: #ffffff;
     color: #5d636b;
-    font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
     transition: all 0.2s;
     -webkit-appearance: none;
     /* removes inner shadow on form inputs on ios safari */
@@ -66,6 +67,10 @@ form {
 }
 
 select {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 3.25rem;
+    color: #7d838a;
     /* you should keep these first rules in place to maintain cross-browser behavior */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -76,24 +81,14 @@ select {
     background-position: 96% 50%;
     background-repeat: no-repeat;
     outline: none;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    height: 3.25rem;
-    color: #7d838a;
 }
 
 .form-control-input:focus,
-.form-control-select:focus,
+select:focus,
 .form-control-textarea:focus {
     border: 1px solid #a1a1a1;
     outline: none;
     /* Removes blue border on focus */
-}
-
-.form-control-input:hover,
-.form-control-select:hover,
-.form-control-textarea:hover {
-    border: 1px solid #a1a1a1;
 }
 
 .form-control-submit-button {
@@ -139,8 +134,9 @@ select {
 
 /* Max-width 992px */
 
-@media (max-width: 992px) {
+
+/*@media (max-width: 992px) {
     .header .image-container {
         display: none;
     }
-}
+}*/
