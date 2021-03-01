@@ -109,3 +109,13 @@ select:focus,
     background-color: transparent;
     color: #F70B39;
 }
+
+
+/* Min-width 768px */
+
+@media (min-width: 768px) {
+    .form {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
