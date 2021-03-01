@@ -1633,12 +1633,13 @@ a:hover.back-to-top {
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 0;
         border: 0;
     }
     .form-iframe iframe {
         position: relative;
         overflow: hidden;
+        border: 0;
     }
     .form-2 .map-responsive {
         margin-right: 1.25rem;
