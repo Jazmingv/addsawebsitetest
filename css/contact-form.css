@@ -39,8 +39,7 @@ form {
     font-weight: 700;
 }
 
-.form-control-input,
-.form-control-select {
+.form-control-input {
     display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;
@@ -58,14 +57,11 @@ form {
     /* removes inner shadow on form inputs on ios safari */
 }
 
-.form-control-select {
+select {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     height: 3.25rem;
     color: #7d838a;
-}
-
-select {
     /* you should keep these first rules in place to maintain cross-browser behavior */
     -webkit-appearance: none;
     -moz-appearance: none;
