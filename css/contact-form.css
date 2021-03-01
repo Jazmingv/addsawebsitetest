@@ -42,18 +42,19 @@ form {
 
 .form-control-textarea,
 .form-control-input {
-    display: inline-block;
+    display: block;
+    /* needed for proper display of the label in Firefox, IE, Edge */
     width: 100%;
+    box-sizing: border-box;
     padding-top: 1.125rem;
     padding-bottom: 0.125rem;
     padding-left: 1.3125rem;
     border: 1px solid #cbcbd1;
     border-radius: 4px;
-    font-size: 0.875rem;
-    line-height: 1.875rem;
     background-color: #ffffff;
     color: #5d636b;
-    font: 600 0.875rem/0 "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
     transition: all 0.2s;
     -webkit-appearance: none;
     /* removes inner shadow on form inputs on ios safari */
@@ -66,6 +67,7 @@ form {
 select {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    height: 3.25rem;
     color: #7d838a;
     /* you should keep these first rules in place to maintain cross-browser behavior */
     -webkit-appearance: none;
