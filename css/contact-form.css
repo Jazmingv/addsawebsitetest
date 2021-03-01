@@ -38,10 +38,10 @@ form {
     font-weight: 700;
 }
 
-.form-control-input,
-.form-control-select {
+.form-control-input {
     display: block;
     /* needed for proper display of the label in Firefox, IE, Edge */
+    box-sizing: border-box;
     width: 100%;
     padding-top: 1.125rem;
     padding-bottom: 0.125rem;
@@ -56,11 +56,21 @@ form {
     /* removes inner shadow on form inputs on ios safari */
 }
 
-.form-control-select {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    height: 3.25rem;
-    color: #7d838a;
+.form-control-textarea {
+    display: block;
+    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+    box-sizing: border-box;
+    width: 100%;
+    height: 14rem;
+    padding-top: 1.125rem;
+    padding-bottom: 0.125rem;
+    padding-left: 1.3125rem;
+    border: 1px solid #cbcbd1;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #5d636b;
+    font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
+    transition: all 0.2s;
 }
 
 select {
@@ -74,22 +84,10 @@ select {
     background-position: 96% 50%;
     background-repeat: no-repeat;
     outline: none;
-}
-
-.form-control-textarea {
-    display: block;
-    /* used to eliminate a bottom gap difference between Chrome and IE/FF */
-    box-sizing: border-box;
-    width: 100%;
-    height: 14rem;
-    top: 0.875rem;
-    left: 1.375rem;
-    border: 1px solid #cbcbd1;
-    border-radius: 4px;
-    background-color: #ffffff;
-    color: #5d636b;
-    font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
-    transition: all 0.2s;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 3.25rem;
+    color: #7d838a;
 }
 
 .form-control-input:focus,
