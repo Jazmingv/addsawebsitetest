@@ -6,15 +6,9 @@ body {
     margin: 0;
 }
 
-form {
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
 .form-group {
     position: relative;
     margin-bottom: 1.25rem;
-    box-sizing: border-box;
 }
 
 .label-control {
