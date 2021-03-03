@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+form {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .form-group {
     position: relative;
     margin-bottom: 1.25rem;
