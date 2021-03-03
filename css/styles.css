@@ -1087,6 +1087,11 @@ a:hover {
     padding-bottom: 6.25rem;
 }
 
+.form-iframe {
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
 .form-2 .h2-heading,
 .form-2 .p-heading,
 .form-2 .list-unstyled {
