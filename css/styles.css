@@ -1084,10 +1084,9 @@ a:hover {
 .form-2 {
     position: relative;
     padding-top: 7rem;
-    padding-bottom: 6.25rem;
 }
 
-.form-iframe {
+.form-2 .form-iframe {
     margin: 0 20px;
     padding: 0 10px;
 }
