@@ -384,12 +384,11 @@ a:hover {
     transition: all 0.2s ease;
 }
 
-.nav-link::before {
-    content: " ";
-    margin-top: -285px;
-    height: 285px;
+a.nav-link {
+    display: block;
+    position: relative;
+    top: -250px;
     visibility: hidden;
-    pointer-events: none;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
