@@ -77,9 +77,8 @@ h6 {
 }
 
 .solutions-sections {
-    margin-top: 4rem;
-    padding-top: 7rem;
-    padding-bottom: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
     background-color: #ffffff;
 }
 
@@ -511,6 +510,7 @@ a:hover {
 /*Customers*/
 
 .slider-1 {
+    margin-top: 3rem;
     padding-top: 2.5rem;
     padding-bottom: 2.125rem;
     text-align: center;
