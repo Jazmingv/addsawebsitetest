@@ -384,6 +384,13 @@ a:hover {
     transition: all 0.2s ease;
 }
 
+.nav-link :target:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -100px 0 0;
+}
+
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
