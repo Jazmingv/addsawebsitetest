@@ -384,13 +384,6 @@ a:hover {
     transition: all 0.2s ease;
 }
 
-a.nav-link {
-    display: block;
-    position: relative;
-    top: -250px;
-    visibility: hidden;
-}
-
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
