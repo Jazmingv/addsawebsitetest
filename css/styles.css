@@ -51,8 +51,8 @@ h2 {
 .h2-heading:before {
     display: block;
     content: " ";
-    margin-top: -3rem;
-    height: 3rem;
+    margin-top: -5rem;
+    height: 5rem;
     visibility: hidden;
 }
 
