@@ -48,14 +48,6 @@ h2 {
     font: 600 2.125rem/2.75rem "Poppins", sans-serif;
 }
 
-.h2-heading:before {
-    display: block;
-    content: " ";
-    margin-top: -5rem;
-    height: 5rem;
-    visibility: hidden;
-}
-
 h3 {
     color: #353535;
     font: 600 1.75rem/2.375rem "Poppins", sans-serif;
@@ -601,6 +593,10 @@ a:hover {
 
 .basic-1 p {
     margin-bottom: 1.875rem;
+}
+
+.solutions-sections {
+    padding: 80 0px;
 }
 
 .solutions-sections h3 {
