@@ -1338,10 +1338,11 @@ a:hover.back-to-top {
     }
     /* Navigation */
     .navbar {
-        padding-top: 1rem;
+        height: 38px;
         background-color: #ffffff;
         box-shadow: none;
         transition: all 0.2s;
+        box-sizing: initial;
     }
     .navbar.top-nav-collapse {
         padding-top: 0.5rem;
