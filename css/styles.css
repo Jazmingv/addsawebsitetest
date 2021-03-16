@@ -1,4 +1,4 @@
-    /*
+/*
 Table Of Contents:
 
 - General Styles
@@ -1204,7 +1204,7 @@ a:hover {
 .copyright p,
 .copyright a {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -1229,355 +1229,448 @@ a:hover.back-to-top {
 }
 
 
+/*Extra Pages*/
+
+.ex-header {
+    padding-top: 8.5rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(to bottom right, #F70B39, #0079f9);
+}
+
+.ex-header h1 {
+    color: #ffffff;
+}
+
+.ex-basic-1 .list-unstyled .fas {
+    font-size: 0.375rem;
+    line-height: 1.625rem;
+}
+
+.ex-basic-1 .list-unstyled .media-body {
+    margin-left: 0.5rem;
+}
+
+.ex-basic-1 .text-box {
+    padding: 1.25rem 1.25rem 0.5rem 1.25rem;
+    background-color: #f2f2f2;
+}
+
+.ex-cards-1 .card {
+    border: none;
+    background-color: transparent;
+}
+
+.ex-cards-1 .card .fa-stack {
+    width: 2em;
+    font-size: 1.125rem;
+}
+
+.ex-cards-1 .card .fa-stack-2x {
+    color: #F70B39;
+}
+
+.ex-cards-1 .card .fa-stack-1x {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 2.125rem;
+}
+
+.ex-cards-1 .card .list-unstyled .media-body {
+    margin-left: 0.75rem;
+}
+
+.ex-cards-1 .card .list-unstyled .media-body h5 {
+    margin-top: 0.125rem;
+    margin-bottom: 0.375rem;
+}
+
+
 /*Media Queries*/
+
+
+/* Min-width 768px */
+
+@media (min-width: 768px) {
+    /* Header */
+    .header {
+        padding-top: 9.5rem;
+    }
+    /* Services */
+    .cards-1 .card {
+        display: inline-block;
+        max-width: 80%;
+        width: 270px;
+        vertical-align: top;
+    }
+    .cards-1 .card:nth-of-type(3n+2) {
+        margin-right: 0.375rem;
+        margin-left: 0.375rem;
+    }
+    /* Customers */
+    .slider-1 .slider-container {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+    }
+    /* Contact */
+    .form-2 .list-unstyled li {
+        display: inline-block;
+    }
+    /* Extra Pages */
+    .ex-basic-1 .text-box {
+        padding: 1.75rem 2rem 0.875rem 2rem;
+    }
+}
 
 
 /* Max-width 768px */
 
 @media (max-width: 768px) {
+    .header .image-container {
+        display: none;
+    }
+}
+
+
+/* Min-width 992px */
+
+@media (min-width: 992px) {
+    /* General Styles */
+    .header .image-container {
+        display: none;
+    }
+    .h1-large {
+        font-size: 4.5rem;
+        line-height: 5.0rem;
+    }
+    .h1-medium {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    .h2-heading {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .p-heading {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* Navigation */
+    .navbar {
+        height: 38px;
+        background-color: #ffffff;
+        box-shadow: none;
+        transition: all 0.2s;
+        box-sizing: initial;
+    }
+    .navbar.top-nav-collapse {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: #ffffff;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
+    }
+    .offcanvas-collapse {
+        position: static;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        width: auto;
+        padding-right: 0;
+        padding-left: 0;
+        background-color: transparent;
+        overflow-y: visible;
+        visibility: visible;
+    }
+    .offcanvas-collapse.open {
+        -webkit-transform: none;
+        transform: none;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .navbar .nav-item .nav-link {
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+        color: #1d1d1d;
+    }
+    .navbar.top-nav-collapse .nav-item .nav-link {
+        color: #1d1d1d;
+    }
+    .navbar.top-nav-collapse .nav-item.dropdown.show .nav-link,
+    .navbar.top-nav-collapse .nav-item .nav-link:hover,
+    .navbar.top-nav-collapse .nav-item .nav-link.active {
+        color: #F70B39;
+    }
+    .navbar .dropdown-menu {
+        margin-top: 0.25rem;
+        background-color: #ffffff;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
+    }
+    .navbar .dropdown-divider {
+        width: 90%;
+    }
+    .navbar .social-icons {
+        margin-left: 0.5rem;
+    }
+    .navbar .fa-stack {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0.25rem;
+    }
     /* Header */
     .header {
-        padding-top: 9.5rem;
-        background-image: none;
+        background-position: center;
+        text-align: left;
     }
-    /* Min-width 768px */
-    @media (min-width: 768px) {
-        /* Header */
-        .header {
-            padding-top: 9.5rem;
-            background-image: ;
-        }
-        /* Customers */
-        .slider-1 .slider-container {
-            padding-right: 3.5rem;
-            padding-left: 3.5rem;
-        }
-        /* Contact */
-        .form-2 .list-unstyled li {
-            display: inline-block;
-        }
-        /* Extra Pages */
-        .ex-basic-1 .text-box {
-            padding: 1.75rem 2rem 0.875rem 2rem;
-        }
+    .header .text-container {
+        margin-bottom: 0;
     }
-    /* Min-width 992px */
-    @media (min-width: 992px) {
-        /* General Styles */
-        .header {
-            display: none;
-        }
-        .h1-large {
-            font-size: 4.5rem;
-            line-height: 5.0rem;
-        }
-        .h1-medium {
-            font-size: 3.5rem;
-            line-height: 3.5rem;
-        }
-        .h2-heading {
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .p-heading {
-            margin-right: auto;
-            margin-left: auto;
-        }
-        /* Navigation */
-        .navbar {
-            height: 38px;
-            background-color: #ffffff;
-            box-shadow: none;
-            transition: all 0.2s;
-            box-sizing: initial;
-        }
-        .navbar.top-nav-collapse {
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-            background-color: #ffffff;
-            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
-        }
-        .offcanvas-collapse {
-            position: static;
-            top: auto;
-            bottom: auto;
-            left: auto;
-            width: auto;
-            padding-right: 0;
-            padding-left: 0;
-            background-color: transparent;
-            overflow-y: visible;
-            visibility: visible;
-        }
-        .offcanvas-collapse.open {
-            -webkit-transform: none;
-            transform: none;
-        }
-        .navbar .navbar-nav {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        .navbar .nav-item .nav-link {
-            padding-right: 0.75rem;
-            padding-left: 0.75rem;
-            color: #1d1d1d;
-        }
-        .navbar.top-nav-collapse .nav-item .nav-link {
-            color: #1d1d1d;
-        }
-        .navbar.top-nav-collapse .nav-item.dropdown.show .nav-link,
-        .navbar.top-nav-collapse .nav-item .nav-link:hover,
-        .navbar.top-nav-collapse .nav-item .nav-link.active {
-            color: #F70B39;
-        }
-        .navbar .dropdown-menu {
-            margin-top: 0.25rem;
-            background-color: #ffffff;
-            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
-        }
-        .navbar .dropdown-divider {
-            width: 90%;
-        }
-        .navbar .social-icons {
-            margin-left: 0.5rem;
-        }
-        .navbar .fa-stack {
-            margin-top: 0;
-            margin-right: 0;
-            margin-left: 0.25rem;
-        }
-        /* Header */
-        .header {
-            background-position: center;
-            text-align: left;
-        }
-        .header .text-container {
-            margin-bottom: 0;
-        }
-        /* Services */
-        .cards-1 .card {
-            display: inline-block;
-            max-width: 50%;
-            width: 270px;
-            vertical-align: top;
-        }
-        .cards-1 .card:nth-of-type(3n+2) {
-            margin-right: 0.375rem;
-            margin-left: 0.375rem;
-        }
-        /* Details 1 */
-        .basic-1 .text-container {
-            margin-top: 1.875rem;
-            margin-bottom: 0;
-        }
-        .basic-1 h2 {
-            width: 24.375rem;
-        }
-        /* Details 1 Lightbox */
-        .solutions-sections {
-            padding: 3rem 3rem;
-        }
-        .solutions-sections .image-container {
-            margin-bottom: 0;
-            text-align: left;
-        }
-        /* Details 2 */
-        .basic-2 .image-container {
-            margin-bottom: 0;
-        }
-        .basic-2 .text-container {
-            margin-top: 2rem;
-        }
-        .basic-2 h2 {
-            width: 24.375rem;
-        }
-        /* Registration */
-        .form-1 .text-container {
-            margin-top: 2.625rem;
-            margin-bottom: 0;
-        }
-        /* Video */
-        .basic-3 .image-container {
-            width: 930px;
-            margin-right: auto;
-            margin-left: auto;
-        }
-        /* Testimonials */
-        .slider-2 .image-container {
-            margin-bottom: 0;
-        }
-        .slider-2 .swiper-container {
-            width: 82%;
-        }
-        .slider-2 .swiper-button-prev {
-            left: 16px;
-            width: 22px;
-            background-size: 22px 34px;
-        }
-        .slider-2 .swiper-button-next {
-            right: 16px;
-            width: 22px;
-            background-size: 22px 34px;
-        }
-        /* About */
-        .cards-3 .card {
-            display: inline-block;
-            max-width: 100%;
-            width: 190px;
-            vertical-align: top;
-        }
-        .cards-3 .card:nth-of-type(4n+2) {
-            margin-right: 1rem;
-            margin-left: 2rem;
-        }
-        .cards-3 .card:nth-of-type(4n+3) {
-            margin-right: 2rem;
-            margin-left: 1rem;
-        }
-        /* Contact */
-        .form-2 .map-responsive {
-            margin-bottom: 0;
-        }
-        /* Footer */
-        .footer .footer-col {
-            margin-bottom: 2rem;
-        }
-        .footer .footer-col.first {
-            display: inline-block;
-            width: 320px;
-            margin-right: 1.75rem;
-            vertical-align: top;
-        }
-        .footer .footer-col.second {
-            display: inline-block;
-            width: 320px;
-            margin-right: 1.75rem;
-            vertical-align: top;
-        }
-        .footer .footer-col.third {
-            display: inline-block;
-            width: 224px;
-            text-align: right;
-            vertical-align: top;
-        }
-        .footer .footer-col.third .fa-stack {
-            margin-right: 0;
-            margin-left: 0.375rem;
-        }
-        /* Extra Pages */
-        .ex-cards-1 .card {
-            display: inline-block;
-            width: 296px;
-            vertical-align: top;
-        }
-        .ex-cards-1 .card:nth-of-type(3n+2) {
-            margin-right: 1rem;
-            margin-left: 1rem;
-        }
+    /* Services */
+    .cards-1 .card {
+        display: inline-block;
+        max-width: 100%;
+        width: 302px;
+        vertical-align: top;
     }
-    /* Min-width 1200px */
-    @media (min-width: 1200px) {
-        /* Navigation */
-        .navbar .container {
-            max-width: 100%;
-            padding-right: 1.5rem;
-            padding-left: 1.5rem;
-        }
-        /* Header */
-        .header {
-            padding-top: 12.5rem;
-            padding-bottom: 7rem;
-        }
-        .header .text-container {
-            margin-top: 3.5rem;
-            margin-right: 4.75rem;
-        }
-        /* Customers */
-        .slider-1 .slider-container {
-            padding-right: 2.5rem;
-            padding-left: 2.5rem;
-        }
-        /* Services */
-        .cards-1 .card {
-            width: 330px;
-        }
-        .cards-1 .card:nth-of-type(3n+2) {
-            margin-right: 3.375rem;
-            margin-left: 3.375rem;
-        }
-        /* Details 1 */
-        .basic-1 .text-container {
-            margin-top: 4.875rem;
-            margin-right: 5.5rem;
-        }
-        /* Details 1 Lightbox */
-        .solutions-sections .image-container {
-            margin-right: 1.5rem;
-        }
-        /* Details 2 */
-        .basic-2 .text-container {
-            margin-top: 4.25rem;
-            margin-left: 5.5rem;
-        }
-        /* Registration */
-        .form-1 .text-container {
-            margin-right: 2.125rem;
-            margin-left: 6rem;
-        }
-        .form-1 form {
-            margin-right: 6rem;
-            margin-left: 1.625rem;
-        }
-        /* Testimonials */
-        .slider-2 h2 {
-            margin-top: 3.5rem;
-            margin-left: 3.25rem;
-        }
-        .slider-2 .slider-container {
-            width: 90%;
-            margin-right: 0;
-            margin-left: auto;
-        }
-        /* About */
-        .cards-3 .card:nth-of-type(4n+2) {
-            margin-right: 2.25rem;
-            margin-left: 4.5rem;
-        }
-        .cards-3 .card:nth-of-type(4n+3) {
-            margin-right: 4.5rem;
-            margin-left: 2.25rem;
-        }
-        /* Contact */
-        .form-2 {
-            overflow: hidden;
-        }
-        .form-2 .map-responsive {
-            margin-right: 1.25rem;
-            padding-bottom: 80%;
-        }
-        .form-2 form {
-            margin-left: 1.25rem;
-        }
-        .form-2 .form-control-textarea {
-            height: 11rem;
-        }
-        /* Footer */
-        .footer .footer-col.first {
-            width: 352px;
-            margin-right: 7rem;
-        }
-        .footer .footer-col.second {
-            margin-right: 5.5rem;
-        }
-        .footer .footer-col.third {
-            text-align: right;
-        }
-        /* Extra Pages */
-        .ex-cards-1 .card {
-            width: 336px;
-        }
-        .ex-cards-1 .card:nth-of-type(3n+2) {
-            margin-right: 2.875rem;
-            margin-left: 2.875rem;
-        }
+    .cards-1 .card:nth-of-type(3n+2) {
+        margin-right: 0.375rem;
+        margin-left: 0.375rem;
     }
+    /* Details 1 */
+    .basic-1 .text-container {
+        margin-top: 1.875rem;
+        margin-bottom: 0;
+    }
+    .basic-1 h2 {
+        width: 24.375rem;
+    }
+    /* Details 1 Lightbox */
+    .solutions-sections {
+        padding: 3rem 3rem;
+    }
+    .solutions-sections .image-container {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    /* Details 2 */
+    .basic-2 .image-container {
+        margin-bottom: 0;
+    }
+    .basic-2 .text-container {
+        margin-top: 2rem;
+    }
+    .basic-2 h2 {
+        width: 24.375rem;
+    }
+    /* Pricing */
+    .cards-2 .card {
+        display: inline-block;
+        max-width: 100%;
+        width: 302px;
+        vertical-align: top;
+    }
+    .cards-2 .card:nth-of-type(3n+2) {
+        margin-right: 0.375rem;
+        margin-left: 0.375rem;
+    }
+    /* Registration */
+    .form-1 .text-container {
+        margin-top: 2.625rem;
+        margin-bottom: 0;
+    }
+    /* Video */
+    .basic-3 .image-container {
+        width: 930px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* Testimonials */
+    .slider-2 .image-container {
+        margin-bottom: 0;
+    }
+    .slider-2 .swiper-container {
+        width: 82%;
+    }
+    .slider-2 .swiper-button-prev {
+        left: 16px;
+        width: 22px;
+        background-size: 22px 34px;
+    }
+    .slider-2 .swiper-button-next {
+        right: 16px;
+        width: 22px;
+        background-size: 22px 34px;
+    }
+    /* About */
+    .cards-3 .card {
+        display: inline-block;
+        max-width: 100%;
+        width: 190px;
+        vertical-align: top;
+    }
+    .cards-3 .card:nth-of-type(4n+2) {
+        margin-right: 1rem;
+        margin-left: 2rem;
+    }
+    .cards-3 .card:nth-of-type(4n+3) {
+        margin-right: 2rem;
+        margin-left: 1rem;
+    }
+    /* Contact */
+    .form-2 .map-responsive {
+        margin-bottom: 0;
+    }
+    /* Footer */
+    .footer .footer-col {
+        margin-bottom: 2rem;
+    }
+    .footer .footer-col.first {
+        display: inline-block;
+        width: 320px;
+        margin-right: 1.75rem;
+        vertical-align: top;
+    }
+    .footer .footer-col.second {
+        display: inline-block;
+        width: 320px;
+        margin-right: 1.75rem;
+        vertical-align: top;
+    }
+    .footer .footer-col.third {
+        display: inline-block;
+        width: 224px;
+        text-align: right;
+        vertical-align: top;
+    }
+    .footer .footer-col.third .fa-stack {
+        margin-right: 0;
+        margin-left: 0.375rem;
+    }
+    /* Extra Pages */
+    .ex-cards-1 .card {
+        display: inline-block;
+        width: 296px;
+        vertical-align: top;
+    }
+    .ex-cards-1 .card:nth-of-type(3n+2) {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+
+/* Min-width 1200px */
+
+@media (min-width: 1200px) {
+    /* Navigation */
+    .navbar .container {
+        max-width: 100%;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+    /* Header */
+    .header {
+        padding-top: 12.5rem;
+        padding-bottom: 7rem;
+    }
+    .header .text-container {
+        margin-top: 3.5rem;
+        margin-right: 4.75rem;
+    }
+    /* Customers */
+    .slider-1 .slider-container {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+    /* Services */
+    .cards-1 .card {
+        width: 330px;
+    }
+    .cards-1 .card:nth-of-type(3n+2) {
+        margin-right: 3.375rem;
+        margin-left: 3.375rem;
+    }
+    /* Details 1 */
+    .basic-1 .text-container {
+        margin-top: 4.875rem;
+        margin-right: 5.5rem;
+    }
+    /* Details 1 Lightbox */
+    .solutions-sections .image-container {
+        margin-right: 1.5rem;
+    }
+    /* Details 2 */
+    .basic-2 .text-container {
+        margin-top: 4.25rem;
+        margin-left: 5.5rem;
+    }
+    /* Pricing */
+    .cards-2 .card {
+        width: 330px;
+    }
+    .cards-2 .card:nth-of-type(3n+2) {
+        margin-right: 3.375rem;
+        margin-left: 3.375rem;
+    }
+    /* Registration */
+    .form-1 .text-container {
+        margin-right: 2.125rem;
+        margin-left: 6rem;
+    }
+    .form-1 form {
+        margin-right: 6rem;
+        margin-left: 1.625rem;
+    }
+    /* Testimonials */
+    .slider-2 h2 {
+        margin-top: 3.5rem;
+        margin-left: 3.25rem;
+    }
+    .slider-2 .slider-container {
+        width: 90%;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    /* About */
+    .cards-3 .card:nth-of-type(4n+2) {
+        margin-right: 2.25rem;
+        margin-left: 4.5rem;
+    }
+    .cards-3 .card:nth-of-type(4n+3) {
+        margin-right: 4.5rem;
+        margin-left: 2.25rem;
+    }
+    /* Contact */
+    .form-2 {
+        overflow: hidden;
+    }
+    .form-2 .map-responsive {
+        margin-right: 1.25rem;
+        padding-bottom: 80%;
+    }
+    .form-2 form {
+        margin-left: 1.25rem;
+    }
+    .form-2 .form-control-textarea {
+        height: 11rem;
+    }
+    /* Footer */
+    .footer .footer-col.first {
+        width: 352px;
+        margin-right: 7rem;
+    }
+    .footer .footer-col.second {
+        margin-right: 5.5rem;
+    }
+    .footer .footer-col.third {
+        text-align: right;
+    }
+    /* Extra Pages */
+    .ex-cards-1 .card {
+        width: 336px;
+    }
+    .ex-cards-1 .card:nth-of-type(3n+2) {
+        margin-right: 2.875rem;
+        margin-left: 2.875rem;
+    }
+}
