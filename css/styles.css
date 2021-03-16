@@ -1325,7 +1325,7 @@ a:hover.back-to-top {
 
 /* Max-width 768px */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .header .image-container {
         display: none;
     }
