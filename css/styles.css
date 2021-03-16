@@ -133,7 +133,9 @@ a:hover {
 
 .bg-gray {
     background-color: #f2f2f2;
+    background-size: cover;
     text-align: center;
+    max-width: 100%;
 }
 
 .btn-solid-reg {
@@ -1342,9 +1344,6 @@ a:hover.back-to-top {
 
 @media (min-width: 992px) {
     /* General Styles */
-    .header .image-container {
-        display: none;
-    }
     .h1-large {
         font-size: 4.5rem;
         line-height: 5.0rem;
