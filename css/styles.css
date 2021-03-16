@@ -477,8 +477,6 @@ a:hover {
     padding-top: 7rem;
     padding-bottom: 3rem;
     background-color: #ffffff;
-    background: url('../images/header-background.jpg') left no-repeat;
-    background-size: cover;
     text-align: center;
 }
 
@@ -1204,7 +1202,7 @@ a:hover {
 .copyright p,
 .copyright a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -1229,62 +1227,6 @@ a:hover.back-to-top {
 }
 
 
-/*Extra Pages*/
-
-.ex-header {
-    padding-top: 8.5rem;
-    padding-bottom: 4rem;
-    background: linear-gradient(to bottom right, #F70B39, #0079f9);
-}
-
-.ex-header h1 {
-    color: #ffffff;
-}
-
-.ex-basic-1 .list-unstyled .fas {
-    font-size: 0.375rem;
-    line-height: 1.625rem;
-}
-
-.ex-basic-1 .list-unstyled .media-body {
-    margin-left: 0.5rem;
-}
-
-.ex-basic-1 .text-box {
-    padding: 1.25rem 1.25rem 0.5rem 1.25rem;
-    background-color: #f2f2f2;
-}
-
-.ex-cards-1 .card {
-    border: none;
-    background-color: transparent;
-}
-
-.ex-cards-1 .card .fa-stack {
-    width: 2em;
-    font-size: 1.125rem;
-}
-
-.ex-cards-1 .card .fa-stack-2x {
-    color: #F70B39;
-}
-
-.ex-cards-1 .card .fa-stack-1x {
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 2.125rem;
-}
-
-.ex-cards-1 .card .list-unstyled .media-body {
-    margin-left: 0.75rem;
-}
-
-.ex-cards-1 .card .list-unstyled .media-body h5 {
-    margin-top: 0.125rem;
-    margin-bottom: 0.375rem;
-}
-
-
 /*Media Queries*/
 
 
@@ -1294,6 +1236,8 @@ a:hover.back-to-top {
     /* Header */
     .header {
         padding-top: 9.5rem;
+        background: url('../images/header-background.jpg') left no-repeat;
+        background-size: cover;
     }
     /* Customers */
     .slider-1 .slider-container {
@@ -1311,19 +1255,13 @@ a:hover.back-to-top {
 }
 
 
-/* Max-width 992px */
-
-@media (max-width: 992px) {
-    .header .image-container {
-        display: none;
-    }
-}
-
-
 /* Min-width 992px */
 
 @media (min-width: 992px) {
     /* General Styles */
+    .header {
+        display: none;
+    }
     .h1-large {
         font-size: 4.5rem;
         line-height: 5.0rem;
@@ -1414,8 +1352,8 @@ a:hover.back-to-top {
     /* Services */
     .cards-1 .card {
         display: inline-block;
-        max-width: 100%;
-        width: 302px;
+        max-width: 50%;
+        width: 270px;
         vertical-align: top;
     }
     .cards-1 .card:nth-of-type(3n+2) {
@@ -1447,17 +1385,6 @@ a:hover.back-to-top {
     }
     .basic-2 h2 {
         width: 24.375rem;
-    }
-    /* Pricing */
-    .cards-2 .card {
-        display: inline-block;
-        max-width: 100%;
-        width: 302px;
-        vertical-align: top;
-    }
-    .cards-2 .card:nth-of-type(3n+2) {
-        margin-right: 0.375rem;
-        margin-left: 0.375rem;
     }
     /* Registration */
     .form-1 .text-container {
@@ -1589,14 +1516,6 @@ a:hover.back-to-top {
     .basic-2 .text-container {
         margin-top: 4.25rem;
         margin-left: 5.5rem;
-    }
-    /* Pricing */
-    .cards-2 .card {
-        width: 330px;
-    }
-    .cards-2 .card:nth-of-type(3n+2) {
-        margin-right: 3.375rem;
-        margin-left: 3.375rem;
     }
     /* Registration */
     .form-1 .text-container {
