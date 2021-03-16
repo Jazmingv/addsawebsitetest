@@ -1340,6 +1340,9 @@ a:hover.back-to-top {
     .cards-1 {
         height: 435px;
     }
+    hr {
+        display: none;
+    }
 }
 
 
