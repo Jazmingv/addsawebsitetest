@@ -1308,7 +1308,7 @@ a:hover.back-to-top {
     .cards-1 .card {
         display: inline-block;
         max-width: 100%;
-        width: 270px;
+        width: 303px;
         vertical-align: top;
     }
     .cards-1 .card:nth-of-type(3n+2) {
@@ -1336,9 +1336,6 @@ a:hover.back-to-top {
 @media (max-width: 992px) {
     .header {
         background-image: none;
-    }
-    .cards-1 {
-        height: 435px;
     }
     hr {
         display: none;
