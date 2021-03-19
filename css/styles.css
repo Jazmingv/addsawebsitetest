@@ -552,7 +552,7 @@ a:hover {
 }
 
 .cards-1 .card {
-    max-width: 330px;
+    max-width: 550px;
     margin-right: auto;
     margin-bottom: 5rem;
     margin-left: auto;
@@ -567,19 +567,22 @@ a:hover {
 }
 
 .cards-1 .card-image {
-    width: 100px;
-    height: 100px;
+    display: inline-block;
+    width: 50%;
+    height: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-    margin-left: auto;
+    margin-left: 30px;
 }
 
 .cards-1 .card-title {
     margin-bottom: 0.5rem;
+    margin-right: 30px;
 }
 
 .cards-1 p {
     margin-bottom: 0;
+    margin-right: 30px;
 }
 
 
