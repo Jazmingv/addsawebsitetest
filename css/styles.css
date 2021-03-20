@@ -572,12 +572,12 @@ a:hover {
 
 .cards-1 .card-image {
     float: left;
-    max-width: 110px;
-    width: 100px;
-    height: 100px;
+    max-width: 175px;
+    width: 150px;
+    height: 150px;
     margin-right: auto;
     margin-bottom: 1rem;
-    margin-left: -20px;
+    margin-left: auto;
 }
 
 .cards-1 .card-title {
