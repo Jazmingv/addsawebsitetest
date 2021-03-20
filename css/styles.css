@@ -1688,10 +1688,10 @@ a:hover.back-to-top {
 
 /* Max-width 400px */
 
-@media (max-width: 400px) {
+@media (max-width: 540px) {
     .cards-1 .card {
         display: inline-block;
-        width: 350px;
+        width: 80%;
         height: auto;
         margin-right: auto;
         margin-bottom: 5rem;
@@ -1710,8 +1710,8 @@ a:hover.back-to-top {
     }
     .cards-1 .card-image {
         float: none;
-        width: 110px;
-        height: 110px;
+        width: 70%;
+        height: auto;
         margin-right: auto;
         margin-bottom: 1rem;
         margin-left: auto;
