@@ -568,6 +568,9 @@ a:hover {
 .cards-1 .card-body {
     float: none;
     width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cards-1 .card-image {
