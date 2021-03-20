@@ -552,8 +552,8 @@ a:hover {
 }
 
 .cards-1 .card {
-    max-width: 330px;
-    height: 375px;
+    max-width: 40%;
+    height: 275px;
     margin-right: auto;
     margin-bottom: 5rem;
     margin-left: auto;
@@ -563,11 +563,12 @@ a:hover {
     border-radius: 8px;
 }
 
-.card-parking {
-    height: 270px;
+.cards-1 .card-body {
+    float: left;
 }
 
 .cards-1 .card-image {
+    float: left;
     width: 100px;
     height: 100px;
     margin-right: auto;
