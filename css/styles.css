@@ -1717,4 +1717,7 @@ a:hover.back-to-top {
         margin-top: -20px;
         margin-left: auto;
     }
+    .btn-solid-reg {
+        margin-top: -20px;
+    }
 }
