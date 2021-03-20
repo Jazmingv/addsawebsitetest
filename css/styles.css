@@ -1313,7 +1313,6 @@ a:hover.back-to-top {
     /* Services */
     .cards-1 .card {
         display: inline-block;
-        max-width: 100%;
         width: 80%;
         vertical-align: top;
     }
@@ -1446,8 +1445,8 @@ a:hover.back-to-top {
     /* Services */
     .cards-1 .card {
         display: inline-block;
-        max-width: 100%;
-        width: 80%;
+        max-width: 550px;
+        width: 500px;
         vertical-align: top;
     }
     .cards-1 .card:nth-of-type(3n+2) {
