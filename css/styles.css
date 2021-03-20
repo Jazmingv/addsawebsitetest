@@ -565,16 +565,12 @@ a:hover {
 }
 
 .cards-1 .card-body {
-    float: right;
-    width: 45%;
-}
-
-.card-body::after {
-    clear: both;
+    display: inline-block;
+    width: 70%;
 }
 
 .cards-1 .card-image {
-    float: left;
+    display: inline-block;
     width: 25%;
     height: auto;
     margin-right: auto;
