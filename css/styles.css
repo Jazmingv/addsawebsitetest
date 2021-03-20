@@ -567,10 +567,11 @@ a:hover {
 
 .cards-1 .card-body {
     float: none;
-    width: 65%;
+    height: 150px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -20px;
 }
 
 .cards-1 .card-image {
