@@ -565,12 +565,13 @@ a:hover {
 
 .cards-1 .card-body {
     float: left;
+    width: 45%;
 }
 
 .cards-1 .card-image {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 45%;
+    height: auto;
     margin-right: auto;
     margin-bottom: 1rem;
     margin-left: auto;
