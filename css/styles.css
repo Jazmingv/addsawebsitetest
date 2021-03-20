@@ -552,6 +552,7 @@ a:hover {
 }
 
 .cards-1 .card {
+    display: inline-block;
     max-width: 550px;
     width: 500px;
     height: auto;
@@ -565,7 +566,7 @@ a:hover {
 }
 
 .cards-1 .card-body {
-    float: left;
+    float: none;
     width: 65%;
 }
 
@@ -575,7 +576,7 @@ a:hover {
     height: 110px;
     margin-right: auto;
     margin-bottom: 1rem;
-    margin-left: auto;
+    margin-left: 0px;
 }
 
 .cards-1 .card-title {
