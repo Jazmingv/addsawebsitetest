@@ -1706,7 +1706,7 @@ a:hover.back-to-top {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 0px;
+        margin-top: -20px;
     }
     .cards-1 .card-image {
         float: none;
@@ -1714,6 +1714,7 @@ a:hover.back-to-top {
         height: auto;
         margin-right: auto;
         margin-bottom: 1rem;
+        margin-top: -20px;
         margin-left: auto;
     }
 }
