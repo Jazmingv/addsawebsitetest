@@ -552,7 +552,7 @@ a:hover {
 }
 
 .cards-1 .card {
-    max-width: 40%;
+    max-width: 550px;
     height: 275px;
     margin-right: auto;
     margin-bottom: 5rem;
