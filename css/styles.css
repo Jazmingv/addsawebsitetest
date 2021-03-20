@@ -1684,3 +1684,36 @@ a:hover.back-to-top {
         margin-left: 2.875rem;
     }
 }
+
+
+/* Max-width 400px */
+
+@media (max-width: 400px) {
+    .cards-1 .card {
+        display: inline-block;
+        width: 350px;
+        height: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+        margin-left: auto;
+        padding: 3.5rem 1rem 2rem 1rem;
+        background-color: #f2f2f2;
+        border: 0.5px solid #c4d8dc;
+        border-radius: 8px;
+    }
+    .cards-1 .card-body {
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+    .cards-1 .card-image {
+        float: none;
+        width: 110px;
+        height: 110px;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-left: auto;
+    }
+}
