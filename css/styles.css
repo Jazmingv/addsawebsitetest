@@ -569,6 +569,10 @@ a:hover {
     width: 45%;
 }
 
+.card-body::after {
+    clear: both;
+}
+
 .cards-1 .card-image {
     float: left;
     width: 25%;
