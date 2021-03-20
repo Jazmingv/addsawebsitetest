@@ -553,6 +553,7 @@ a:hover {
 
 .cards-1 .card {
     max-width: 550px;
+    width: 500px;
     height: 275px;
     margin-right: auto;
     margin-bottom: 5rem;
@@ -1308,8 +1309,8 @@ a:hover.back-to-top {
     /* Services */
     .cards-1 .card {
         display: inline-block;
-        max-width: 80%;
-        width: 270px;
+        max-width: 100%;
+        width: 80%;
         vertical-align: top;
     }
     .cards-1 .card:nth-of-type(3n+2) {
@@ -1442,7 +1443,7 @@ a:hover.back-to-top {
     .cards-1 .card {
         display: inline-block;
         max-width: 100%;
-        width: 302px;
+        width: 80%;
         vertical-align: top;
     }
     .cards-1 .card:nth-of-type(3n+2) {
@@ -1594,14 +1595,6 @@ a:hover.back-to-top {
     .slider-1 .slider-container {
         padding-right: 2.5rem;
         padding-left: 2.5rem;
-    }
-    /* Services */
-    .cards-1 .card {
-        width: 330px;
-    }
-    .cards-1 .card:nth-of-type(3n+2) {
-        margin-right: 3.375rem;
-        margin-left: 3.375rem;
     }
     /* Details 1 */
     .basic-1 .text-container {
