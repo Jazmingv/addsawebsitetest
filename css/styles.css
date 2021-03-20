@@ -1692,7 +1692,7 @@ a:hover.back-to-top {
     .cards-1 .card {
         display: inline-block;
         width: 80%;
-        height: auto;
+        height: 110%;
         margin-right: auto;
         margin-bottom: 5rem;
         margin-left: auto;
