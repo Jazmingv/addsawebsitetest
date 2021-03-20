@@ -552,8 +552,8 @@ a:hover {
 }
 
 .cards-1 .card {
-    max-width: 50%;
-    width: 600px;
+    max-width: 550px;
+    width: 500px;
     height: auto;
     margin-right: auto;
     margin-bottom: 5rem;
@@ -565,16 +565,14 @@ a:hover {
 }
 
 .cards-1 .card-body {
-    display: inline-block;
-    float: none;
-    width: 330px;
+    float: left;
+    width: 45%;
 }
 
 .cards-1 .card-image {
     float: left;
-    max-width: 175px;
-    width: 150px;
-    height: 150px;
+    width: 30%;
+    height: auto;
     margin-right: auto;
     margin-bottom: 1rem;
     margin-left: auto;
