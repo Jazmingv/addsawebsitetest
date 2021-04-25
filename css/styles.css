@@ -1689,6 +1689,11 @@ a:hover.back-to-top {
 /* Max-width 400px */
 
 @media (max-width: 540px) {
+    .container {
+        max-width: 100%;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
     .cards-1 .card {
         display: inline-block;
         width: 80%;
